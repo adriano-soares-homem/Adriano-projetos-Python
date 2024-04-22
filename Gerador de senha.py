@@ -56,7 +56,7 @@ def Copiar():
      telaprin.clipboard_append(senha_gerada)
 
 
-msg = Label(telaprin, text='Digite a quantide de caracteres você quer', height=1,)
+msg = Label(telaprin, text='Digite a quantidade de caracteres que você deseja', height=1,)
 bot1 = Checkbutton(telaprin, text= 'A-Z', variable= botao, onvalue = 1, offvalue = 0, height=1,width = 5,)
 bot2 = Checkbutton(telaprin, text='a-z', variable=botao2, onvalue=1, offvalue=0, height=1, width= 5,)
 bot3 = Checkbutton(telaprin, text='!@#$%&*', variable=botao3, onvalue=1, offvalue=0, height=1, width=7,)
