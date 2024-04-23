@@ -1,7 +1,7 @@
 import numpy as np
 
 
-jogada = np.array([['   ','   ','   '],['   ','   ','   '], ['   ','   ','  ']])
+jogada = np.array([['   ','   ','   '],['   ','   ','   '], ['   ','   ','   ']])
 jogador= int(1)
 vencedor = None
 jogadaP = ['', '']
@@ -13,9 +13,7 @@ print("Quem começa é o X")
 
 while True:
 
-    print("")
-    print("")
-    print("")
+    print('\n\n\n')
 
 
 
